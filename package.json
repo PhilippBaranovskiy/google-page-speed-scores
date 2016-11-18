@@ -1,0 +1,31 @@
+{
+  "name": "google-page-speed-scores",
+  "version": "1.0.0",
+  "description": "",
+  "main": "googlePageSpeedScores.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockfield/google-page-speed-scores.git"
+  },
+  "keywords": [
+    "google",
+    "pagespeed",
+    "scores"
+  ],
+  "author": "Philipp Baranovskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rockfield/google-page-speed-scores/issues"
+  },
+  "homepage": "https://github.com/rockfield/google-page-speed-scores#readme",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1"
+  }
+}
