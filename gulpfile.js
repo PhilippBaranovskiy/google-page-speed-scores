@@ -7,7 +7,7 @@ var concat = require('gulp-concat');
 gulp.task('build', function (cb) {
 	pump([
 			gulp.src([
-				'bower_components/qwest/src/qwest.js',
+				'bower_components/qwest/qwest.min.js',
 				'src/google-page-speed-scores.js'
 			]),
 			uglify(),
